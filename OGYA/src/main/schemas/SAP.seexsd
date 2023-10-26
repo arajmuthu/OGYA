@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:bic="http://www.seeburger.com/bicng/lang/schema/" xmlns:json="http://www.seeburger.com/bicng/lang/schema/json" xmlns:xsd="http://www.w3.org/2001/XMLSchema" bic:messageType="JSON" elementFormDefault="qualified">
+  <xsd:element name="ANONYMOUS">
+    <xsd:complexType>
+      <xsd:complexContent>
+        <xsd:extension base="json:ObjectMessageRoot">
+          <xsd:all>
+            <xsd:element minOccurs="0" name="Msgid" nillable="true">
+              <xsd:simpleType>
+                <xsd:restriction base="json:String"/>
+              </xsd:simpleType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="Orgid" nillable="true">
+              <xsd:simpleType>
+                <xsd:restriction base="json:String"/>
+              </xsd:simpleType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="Timestamp" nillable="true">
+              <xsd:simpleType>
+                <xsd:restriction base="json:String"/>
+              </xsd:simpleType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="Ctry" nillable="true">
+              <xsd:simpleType>
+                <xsd:restriction base="json:String"/>
+              </xsd:simpleType>
+            </xsd:element>
+            <xsd:element minOccurs="0" name="headertoresponseitem">
+              <xsd:complexType>
+                <xsd:complexContent>
+                  <xsd:extension base="json:Object">
+                    <xsd:all>
+                      <xsd:element minOccurs="0" name="Responsetype" nillable="true">
+                        <xsd:simpleType>
+                          <xsd:restriction base="json:String"/>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="Msgrefid" nillable="true">
+                        <xsd:simpleType>
+                          <xsd:restriction base="json:String"/>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="Txnstatus" nillable="true">
+                        <xsd:simpleType>
+                          <xsd:restriction base="json:String"/>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="TxnRejectCode" nillable="true">
+                        <xsd:simpleType>
+                          <xsd:restriction base="json:String"/>
+                        </xsd:simpleType>
+                      </xsd:element>
+                      <xsd:element minOccurs="0" name="Txnstatusdes" nillable="true">
+                        <xsd:simpleType>
+                          <xsd:restriction base="json:String"/>
+                        </xsd:simpleType>
+                      </xsd:element>
+                    </xsd:all>
+                  </xsd:extension>
+                </xsd:complexContent>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:all>
+        </xsd:extension>
+      </xsd:complexContent>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

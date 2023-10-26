@@ -1,0 +1,16 @@
+{
+	"header": {
+		"msgId": "CNTRA20200110000",
+		"orgId": "CNREMITR",
+		"timeStamp": "2020-01-10T18:41:43.937",
+		"ctry": "CN"
+	},
+	"txnResponses": [
+		{
+			"responseType": "ACK1",
+			"msgRefId": "IRS2001100000078",
+			"txnStatus": "ACTC",
+			"txnStatusDescription": "Request Received"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+(:
+Mapping1.seemap
+created at Oct 26, 2023 by a.muthu
+:)
+
+import schema default element namespace "" at "ACK1_DBS.seexsd" as source;
+import schema default element namespace "" at "SAP.seexsd" as target;
+
+ANONYMOUS <- /ANONYMOUS
+{
+	Orgid := header/msgId
+	Orgid := header/orgId
+}

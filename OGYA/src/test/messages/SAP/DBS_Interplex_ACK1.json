@@ -1,0 +1,13 @@
+{
+	"Msgid" : "123",
+        "Orgid" : "",
+        "Timestamp" : "",
+        "Ctry" : "",
+        "headertoresponseitem" : {
+	  "Responsetype" : "ACK1",
+          "Msgrefid" : "IRS1910200000035",          
+          "Txnstatus" : "ACWC",
+	  "TxnRejectCode" : "",	
+          "Txnstatusdes" : "TEST"
+	}
+}

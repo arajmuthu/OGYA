@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/main/schemas/ACK1_DBS.seexsd=UTF-8
+encoding//src/main/schemas/SAP.seexsd=UTF-8
+encoding//src/test/messages/ACK1_DBS/DBS_ACK1.json=windows-1252
+encoding//src/test/messages/SAP/DBS_Interplex_ACK1.json=windows-1252
+encoding/<project>=UTF-8
